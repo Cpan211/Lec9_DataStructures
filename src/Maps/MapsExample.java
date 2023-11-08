@@ -55,7 +55,7 @@ public class MapsExample {
         Iterator<String> iterator = m.keySet().iterator();
         while (iterator.hasNext()) {
             String key = iterator.next();
-            int v = m.get(key);
+                int v = m.get(key);
             System.out.println("Key: " + key + ", Value: " + v);
         }
     }
